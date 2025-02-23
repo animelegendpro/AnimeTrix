@@ -59,15 +59,12 @@ function Navbar() {
               className="text-2xl text-white mt-1 cursor-pointer"
               onClick={handleHamburgerClick}
             />
-            <Link
-              to="/"
-              className="text-4xl font-bold max-[575px]:text-3xl cursor-pointer"
-            >
-              {logoTitle.slice(0, 3)}
-              <span className="text-[#FF6300]">{logoTitle.slice(3, 4)}</span>
-              {logoTitle.slice(6)}
-            </Link>
-          </div>
+              <img
+          src="https://i.postimg.cc/SsKY6Y9f/2H76i57.png"
+          alt={logoTitle}
+          className="w-[200px] h-[100px]"
+        />
+      </div> 
           <WebSearch />
         </div>
         <div className="flex gap-x-7 items-center max-lg:hidden">
