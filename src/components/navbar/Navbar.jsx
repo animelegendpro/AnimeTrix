@@ -62,7 +62,7 @@ function Navbar() {
               <img
           src="https://i.postimg.cc/tgC5ntmZ/20250224-014956.png"
           alt={logoTitle}
-          className="w-[200px] h-[200px]"
+          className="w-[160px] h-[39px]"
         />
       </div> 
           <WebSearch />
