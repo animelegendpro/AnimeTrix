@@ -1,3 +1,3 @@
-const logoTitle="<b>あ</b>AniTrix"
+const logoTitle="あ AniTrix"
 
 export default logoTitle;
