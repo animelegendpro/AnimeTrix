@@ -60,7 +60,7 @@ function Navbar() {
               onClick={handleHamburgerClick}
             />
               <img
-          src="https://i.postimg.cc/SsKY6Y9f/2H76i57.png"
+          src="https://i.postimg.cc/tgC5ntmZ/20250224-014956.png"
           alt={logoTitle}
           className="w-[200px] h-[100px]"
         />
