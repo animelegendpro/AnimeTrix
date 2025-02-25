@@ -27,9 +27,7 @@ function Footer() {
                     </div>
                     <div class="clearfix"></div>
                 </div>
-                </div>
-                <div class="clearfix"></div>
-            </div>
+        />
         <div className="flex py-5 flex-col w-full space-y-4 max-md:items-center max-[500px]:bg-[#373646]">
         <div className="flex w-fit items-center space-x-6 max-[500px]:hidden">
           <p className="text-2xl font-bold max-md:text-lg">A-Z LIST</p>
