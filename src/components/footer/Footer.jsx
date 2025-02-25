@@ -15,7 +15,22 @@ function Footer() {
           className="w-[200px] h-[100px]"
         />
       </div>
-      <div className="flex py-5 flex-col w-full space-y-4 max-md:items-center max-[500px]:bg-[#373646]">
+         <div class="clearfix"></div>
+                </a>
+                <div class="footer-joingroup">
+                 <div class="anw-group">
+                    <div class="zrg-list">
+                    <div class="item"><a href="<?= $discord ?>" target="_blank" class="zr-social-button dc-btn"><i class="fa-brands fa-discord"></i></a></div>
+                    <div class="item"><a href="<?= $github ?>" target="_blank" class="zr-social-button tl-btn"><i class="fa-brands fa-github"></i></i></a></div>
+                    <div class="item"><a href="<?= $telegram ?>" target="_blank" class="zr-social-button tw-btn"><i class="fa-brands fa-telegram"></i></a></div>
+                    <div class="item"><a href="<?= $instagram ?>" target="_blank" class="zr-social-button rd-btn"><i class="fa-brands fa-instagram"></i></a></div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        <div className="flex py-5 flex-col w-full space-y-4 max-md:items-center max-[500px]:bg-[#373646]">
         <div className="flex w-fit items-center space-x-6 max-[500px]:hidden">
           <p className="text-2xl font-bold max-md:text-lg">A-Z LIST</p>
           <p
