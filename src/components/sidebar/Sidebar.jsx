@@ -112,33 +112,7 @@ const Sidebar = ({ isOpen, onClose }) => {
               { name: "TV Series", path: "/tv" },
               { name: "OVAs", path: "/ova" },
               { name: "ONAs", path: "/ona" },
-              { name: "Specials", path: "/special" }, 
-          <div className="grid grid-cols-2">
-            {GENRES.slice(0, isShowAllGenre ? GENRES.length : 10).map(
-              (genre, idx) => (
-                <Link
-                  key={genre}
-                  href={`/genre/${genre}`}
-                  onClick={() => setIsSidebarOpen(false)}
-                  style={{
-                    color: generateRandomColor(idx),
-                  }}
-                  className="py-2.5 text-[13px] capitalize"
-                >
-                  {genre.replaceAll("-", " ")}
-                </Link>
-              ),
-            )}
-
-            {!isShowAllGenre && (
-              <p
-                onClick={() => setIsShowAllGenre(true)}
-                className="flex w-full cursor-pointer items-center py-2 text-[13px]"
-              >
-                + More
-              </p>
-            )}
-          </div>
+              { name: "Specials", path: "/special" },
             ].map((item, index) => (
               <li
                 key={index}
