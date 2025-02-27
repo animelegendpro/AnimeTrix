@@ -1,4 +1,0 @@
-User-Agent: *
-Allow: /
-
-Sitemap: https://AnimeTrix.site/sitemap.xml
